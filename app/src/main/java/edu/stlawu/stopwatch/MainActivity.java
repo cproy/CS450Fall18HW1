@@ -144,7 +144,7 @@ public class MainActivity extends AppCompatActivity {
         this.t = new Timer();
 
         // set buttons to correct in initial state
-        if (tv_count.getText().equals("0.0")){
+        if (tv_count.getText().equals("0:00.0")){
             bt_resume.setEnabled(false);
             bt_reset.setEnabled(false);
         } else {
